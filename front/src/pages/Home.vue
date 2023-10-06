@@ -4,6 +4,7 @@
     <Banner />
     <TopSellers />
     <Partners />
+    <Faq />
     <Footer />
 </template>
 
@@ -14,5 +15,5 @@ import Partners from '../components/Partners.vue'
 import TopSellers from '../components/TopSellers.vue'
 import Footer from '../components/Footer.vue'
 import Banner from '../components/Banner.vue'
-
+import Faq from '../components/Faq.vue'
 </script>
