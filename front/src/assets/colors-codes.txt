@@ -1,0 +1,11 @@
+Your selected colors:
+
+    Text: #000000 (rgb(0, 0, 0) - hsl(0, 0%, 0%))
+    Background: #f7f4f2 (rgb(247, 244, 242) - hsl(24, 24%, 96%))
+    Primary: #69a8cf (rgb(105, 168, 207) - hsl(203, 52%, 61%))
+    Secondary: #ece4df (rgb(236, 228, 223) - hsl(23, 25%, 90%))
+    Accent: #61879e (rgb(97, 135, 158) - hsl(203, 24%, 50%))
+
+Realtime Colors link for selected colors: https://www.realtimecolors.com/?colors=000000-f7f4f2-69a8cf-ece4df-61879e&fonts=DM%20Sans-DM%20Sans
+
+Thanks for using RealtimeColors.com!

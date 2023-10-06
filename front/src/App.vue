@@ -1,9 +1,13 @@
-<script setup>
-import Navbar from './components/Navbar.vue'
-</script>
-
 <template>
+    <div>   
 
-<Navbar />
-</template>
-
+    <Navbar />
+    <Hero />
+    </div>
+  </template>
+  
+  <script setup>
+  import Navbar from './components/Navbar.vue'
+  import Hero from './components/Hero.vue'
+  </script>
+  
