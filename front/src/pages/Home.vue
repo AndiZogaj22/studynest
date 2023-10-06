@@ -1,8 +1,9 @@
 <template>
      <Navbar />
     <Hero />
-    <Partners />
+    <Banner />
     <TopSellers />
+    <Partners />
     <Footer />
 </template>
 
@@ -12,4 +13,6 @@ import Hero from '../components/Hero.vue'
 import Partners from '../components/Partners.vue'
 import TopSellers from '../components/TopSellers.vue'
 import Footer from '../components/Footer.vue'
+import Banner from '../components/Banner.vue'
+
 </script>

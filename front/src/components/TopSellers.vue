@@ -4,10 +4,10 @@
             <div class=" flex flex-col justify-center items-center pt-9 sm:pt-12 lg:pt-16 pb-24 sm:pb-52">
                 <div class="2xl:container 2xl:mx-auto flex flex-col justify-center items-center sm:pb-12 lg:pb-0 space-y-4 px-4 md:px-6 2xl:px-0">
                     <div>
-                        <p class="text-3xl lg:text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">Best Seller Products</p>
+                        <p class="text-3xl lg:text-4xl font-semibold leading-9 text-center text-gray-800 dark:text-gray-50">Best Seller Courses</p>
                     </div>
                     <div>
-                        <p class="text-base leading-normal sm:leading-none text-center text-text">Explore products that are bought most frequently by people</p>
+                        <p class="text-base leading-normal sm:leading-none text-center text-text">Explore courses that are bought most frequently by people</p>
                     </div>
                 </div>
             </div>
