@@ -1,7 +1,7 @@
 <template>
     
-        <div class="pb-64 pt-24 bg-inherit">
-            <div class=" flex flex-col justify-center items-center pt-9 sm:pt-12 lg:pt-16 pb-24 sm:pb-52">
+        <div class="pb-64 pt-16 bg-inherit">
+            <div class=" flex flex-col justify-center items-center pt-9 sm:pt-12 lg:pt-16 pb-24 sm:pb-52 bg-inherit">
                 <div class="2xl:container 2xl:mx-auto flex flex-col justify-center items-center sm:pb-12 lg:pb-0 space-y-4 px-4 md:px-6 2xl:px-0">
                     <div>
                         <p class="text-3xl lg:text-4xl font-semibold leading-9 text-center text-gray-800 hover:text-primary dark:text-gray-50">Explore Inspiring Online Courses

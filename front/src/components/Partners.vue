@@ -1,6 +1,6 @@
 <template>
     
-    <div class="px-4 py-12 bg-inherit">
+    <div class="px-4 py-48 bg-inherit">
       <div
         class="lg:max-w-[1440px] md:max-w-[744px] max-w-[375px] w-full py-12  mx-auto"
       >

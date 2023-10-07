@@ -3,8 +3,9 @@
     <Hero />
     <Banner />
     <TopSellers />
-    <Partners />
+    <Teachers />
     <Faq />
+    <Partners />
     <Footer />
 </template>
 
@@ -16,4 +17,5 @@ import TopSellers from '../components/TopSellers.vue'
 import Footer from '../components/Footer.vue'
 import Banner from '../components/Banner.vue'
 import Faq from '../components/Faq.vue'
+import Teachers from '../components/Teachers.vue'
 </script>

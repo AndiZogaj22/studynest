@@ -1,7 +1,7 @@
 <template>
     <div >
       <div class="max-w-screen-lg mx-auto  rounded-lg flex">
-          <div class="w-1/2">
+          <div class="w-1/2 mb-auto">
               <h1 class="text-7xl font-semibold">Get Creative<br> With <br><div class="hover:text-primary">StudyNest</div></h1>
           </div>
           <div class="w-1/2 p-2 mb-16">
