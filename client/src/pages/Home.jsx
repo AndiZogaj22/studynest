@@ -1,12 +1,12 @@
 import React from 'react'
-import Navbar from '../components/Navbar.vue'
-import Hero from '../components/Hero.vue'
-import Partners from '../components/Partners.vue'
-import TopSellers from '../components/TopSellers.vue'
-import Footer from '../components/Footer.vue'
-import Banner from '../components/Banner.vue'
-import Faq from '../components/Faq.vue'
-import Teachers from '../components/Teachers.vue'
+import Navbar from '../components/Navbar.jsx'
+import Hero from '../components/Hero.jsx'
+import Partners from '../components/Partners.jsx'
+import TopSellers from '../components/TopSellers.jsx'
+import Footer from '../components/Footer.jsx'
+import Banner from '../components/Banner.jsx'
+import Faq from '../components/Faq.jsx'
+import Teachers from '../components/Teachers.jsx'
 const Home = () => {
   return (
    <>

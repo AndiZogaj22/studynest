@@ -128,6 +128,4 @@ export default {
 };
 </script>
 
-<style scoped>
-/* Add your component-specific styles here if needed */
-</style>
+

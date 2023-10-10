@@ -1,4 +1,8 @@
-<template>
+import React from 'react'
+
+const Footer = () => {
+  return (
+    <div>
     
     <div class="mx-auto container py-16 xl:px-20 lg:px-12 sm:px-6 px-4 bg-inherit">
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-4 md:gap-8 gap-4">
@@ -6,7 +10,7 @@
                     <div class="dark:text-white">
                         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img class="h-16 w-auto transition-transform transform hover:scale-110" src="../assets/logo.png" alt="">
+          <img class="h-16 w-auto transition-transform transform hover:scale-110" src="../assets/logo.png" alt="" />
         </a>
                     </div>
                     <p class="text-sm leading-none text-gray-800 mt-4 dark:text-white">Copyright © 2023 StudyNest</p>
@@ -91,4 +95,8 @@
             </div>
         </div>
     
-</template>
+    </div>
+  )
+}
+
+export default Footer

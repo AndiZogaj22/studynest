@@ -1,4 +1,8 @@
-<template>
+import React from 'react'
+
+const Partners = () => {
+  return (
+    <div>
     
     <div class="px-4 py-48 bg-inherit">
       <div
@@ -507,5 +511,10 @@
       </div>
     </div>
   
-</template>
 
+
+    </div>
+  )
+}
+
+export default Partners
