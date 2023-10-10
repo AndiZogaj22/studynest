@@ -1,4 +1,9 @@
-<template>
+import React from 'react'
+
+const Banner = () => {
+  return (
+    <div>
+    
     <div class="bg-ingerit ">
       <div class="container mx-auto p-4">
         <div class="md:flex md:max-w-screen-lg mx-auto rounded-lg">
@@ -47,5 +52,10 @@
         </div>
       </div>
     </div>
-  </template>
+ </div>
   
+    </div>
+  )
+}
+
+export default Banner

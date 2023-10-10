@@ -27,14 +27,17 @@
             </svg>
           </button>
         </div>
-        <div class="hidden lg:flex lg:gap-x-12">
-          <a href="#" class="text-sm font-semibold leading-6 text-text hover:text-primary">Home</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-text hover:text-primary">Courses</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-text hover:text-primary">About Us</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-text hover:text-primary">Contact Us</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-text hover:text-primary">My Dashboard</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-text hover:text-primary">Newsletter</a>
-        </div>
+        
+  <div class="hidden lg:flex lg:gap-x-12">
+    <router-link to="/" class="text-sm font-semibold leading-6 text-text hover:text-primary">Home</router-link>
+    <router-link to="/courses" class="text-sm font-semibold leading-6 text-text hover:text-primary">Courses</router-link>
+    <router-link to="/aboutus" class="text-sm font-semibold leading-6 text-text hover:text-primary">About Us</router-link>
+    <router-link to="/contactus" class="text-sm font-semibold leading-6 text-text hover:text-primary">Contact Us</router-link>
+    <router-link to="/mydashboard" class="text-sm font-semibold leading-6 text-text hover:text-primary">My Dashboard</router-link>
+    <router-link to="/newsletter" class="text-sm font-semibold leading-6 text-text hover:text-primary">Newsletter</router-link>
+  </div>
+
+
         <div class="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="#" class="text-sm font-semibold leading-6 text-text">Log in <span aria-hidden="true">&rarr;</span></a>
         </div>
@@ -86,6 +89,7 @@
       </div>
     </header>
   </div>
+  
 </template>
 
 <script>
