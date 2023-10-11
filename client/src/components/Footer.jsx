@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Logo from '../assets/Logo.png'
 const Footer = () => {
   return (
     <div>
@@ -10,7 +10,7 @@ const Footer = () => {
                     <div class="dark:text-white">
                         <a href="#" class="-m-1.5 p-1.5">
           <span class="sr-only">Your Company</span>
-          <img class="h-16 w-auto transition-transform transform hover:scale-110" src="../assets/logo.png" alt="" />
+          <img class="h-16 w-auto transition-transform transform hover:scale-110" src={Logo} alt="" />
         </a>
                     </div>
                     <p class="text-sm leading-none text-gray-800 mt-4 dark:text-white">Copyright © 2023 StudyNest</p>

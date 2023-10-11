@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import Logo from '../assets/logo.png'
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -18,7 +18,7 @@ function Navbar() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img className="h-16 w-auto transition-transform transform hover:scale-110" src="../assets/logo.png" alt="" />
+              <img className="h-16 w-auto transition-transform transform hover:scale-110" src={Logo} alt="" />
             </a>
           </div>
           <div className="flex lg:hidden">
