@@ -9,7 +9,7 @@ const Banner = () => {
         <div class="md:flex md:max-w-screen-lg mx-auto rounded-lg">
           <div class="md:w-1/2 mb-8 md:mb-0">
             <h1 class="text-5xl md:text-7xl font-semibold">
-              Get Creative<br> With <br>
+              Get Creative<br></br> With <br></br>
               <span class="hover:text-primary">StudyNest</span>
             </h1>
           </div>
@@ -54,7 +54,7 @@ const Banner = () => {
     </div>
  </div>
   
-    </div>
+  
   )
 }
 

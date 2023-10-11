@@ -1,10 +1,10 @@
 
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Aboutus from './pages/Aboutus';
+import Aboutus from './pages/Aboutus'
 import Home from './pages/Home';
 import Contactus from './pages/Contactus';
-import Courses from './Components/Courses'; // Replace './path/to/RecipeDetails' with the correct path to your RecipeDetails component
+import Courses from './pages/Courses' // Replace './path/to/RecipeDetails' with the correct path to your RecipeDetails component
 import MyDashboard from './pages/Mydashboard';
 import Newsletter from './pages/Newsletter';
 
