@@ -75,7 +75,7 @@ function Navbar() {
                   <span className="sr-only">Your Company</span>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
+                    src={Logo}
                     alt=""
                   />
                 </a>
@@ -96,22 +96,22 @@ function Navbar() {
               <div className="mt-6 flow-root">
                 <div className="-my-6 divide-y divide-gray-500/10">
                   <div className="space-y-2 py-6">
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
+                    <a href="/" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
                       Home
                     </a>
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
+                    <a href="/courses" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
                       Courses
                     </a>
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
+                    <a href="/aboutus" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
                       About Us
                     </a>
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
+                    <a href="contactus" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
                       Contact Us
                     </a>
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
+                    <a href="mydashboard" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
                       My Dashboard
                     </a>
-                    <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
+                    <a href="newsletter" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-text hover:text-primary">
                       Newsletter
                     </a>
                   </div>
