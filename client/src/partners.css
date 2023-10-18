@@ -1,0 +1,18 @@
+/* Partners.css */
+
+  
+  .partner-item {
+    position: relative;
+    overflow: hidden;
+    filter: grayscale(100%); /* Initial state: black and white */
+    transition: 0.3s; /* Transition on hover */
+  
+    /* Adjust the width and height as needed */
+    width: 100%;
+    height: auto;
+  }
+  
+  .partner-item:hover {
+    filter: grayscale(0%); /* Hover state: show color */
+  }
+  

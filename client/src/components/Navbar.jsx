@@ -61,7 +61,7 @@ function Navbar() {
             </a>
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-text">
+            <a href="/login-register" className="text-sm font-semibold leading-6 text-text">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>

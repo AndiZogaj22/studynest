@@ -7,7 +7,7 @@ import Contactus from './pages/Contactus';
 import Courses from './pages/Courses' // Replace './path/to/RecipeDetails' with the correct path to your RecipeDetails component
 import MyDashboard from './pages/Mydashboard';
 import Newsletter from './pages/Newsletter';
-
+import LoginRegister from './pages/LoginRegister';
 function App() {
 
   return (
@@ -19,6 +19,8 @@ function App() {
         <Route path="/courses" element={<Courses />} />
         <Route path='/mydashboard' element={<MyDashboard />}></Route>
         <Route path='/newsletter' element={<Newsletter />}></Route>
+        <Route path='/login-register' element={<LoginRegister />}></Route>
+
       </Routes>
     </Router>
   )
